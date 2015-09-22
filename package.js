@@ -23,9 +23,12 @@ Package.onUse(function(api) {
   api.addFiles(['lib/commanding/commandTranslator.js',
                 'lib/commanding/baseCommandBus.js',
                 'lib/commanding/validationCommandBus.js',
+                'lib/commanding/loggingCommandBus.js',
                 'lib/commanding/commandBus.js',
                 'lib/commanding/commandHandler.js',
                 'lib/eventing/eventGenerator.js',
+                'lib/eventing/baseEventDispatcher.js',
+                'lib/eventing/loggingEventDispatcher.js',
                 'lib/eventing/eventDispatcher.js',
                 'lib/eventing/eventHandler.js'], ['client', 'server']);
 
